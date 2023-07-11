@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component
 import kotlin.system.exitProcess
 
 @Component
-class MessageProducer(val template: RabbitTemplate, val exchange: FanoutExchange): CommandLineRunner {
+class MessageProducer(val template: RabbitTemplate): CommandLineRunner {
     @Value("\${chat.alias}")
     val USER: String=""
 

@@ -1,6 +1,5 @@
 package seg3x02.rabbittchat
 
-import org.springframework.amqp.core.FanoutExchange
 import org.springframework.amqp.rabbit.core.RabbitTemplate
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
